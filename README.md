@@ -73,7 +73,13 @@ cluster-robust by driver x race.
 Nuisance effects recovered, all correct in sign (sanity check, not a result):
 fuel -3.31% across a race, tyre age +0.032%/lap, traffic -0.214% per e-fold of gap.
 
-Car pace reproduces the constructors' championship order for the top four:
+**The model never sees a result** — no finishing positions, no points, no winners. Rank the
+teams by the pace it produces and compare to the actual constructors' championship:
+**Spearman ρ = 0.982, 7 of 11 exact**, with the only errors two adjacent swaps.
+
+![validation](figures/validation.png)
+
+Car pace:
 
 | | team | % off fastest |
 |---|---|---|
