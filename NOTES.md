@@ -284,3 +284,30 @@ Catalunya 25.8 | Spa 25.2 | Montreal 25.2 | Zandvoort 24.2 | Shanghai 24.0 | Hun
 Baku 16.8 | Monte Carlo 13.1
 Face validity: Monza top, Monaco bottom. Baku at 16.8% is the surprise — historically a
 big-overtaking circuit; without DRS the long straight no longer seems to be enough.
+
+## THREE MORE ARTIFACTS (hunted deliberately, 2026-10-19)
+
+**3. Survivorship in stint length.** Degradation estimated separately by how long the stint
+actually lasted: <=10 laps -0.070%/lap (tyres appear to get FASTER), 11-15 +0.067,
+16-20 +0.077, 21-25 +0.067, >25 +0.054. Teams pit when the tyre is done, so a long stint is
+one where degradation was low, and a short stint was usually ended for reasons unrelated to
+wear. Both ends selected on the outcome.
+Ruled out tyre warm-up as the explanation: dropping the first 3 laps of every stint made the
+short-stint negative STRONGER (-0.065 -> -0.070). This is the censoring threat flagged
+earlier, now quantified. Still unresolved.
+
+**4. Range restriction / conditioning on the outcome.** r(grid position, race pace):
+  whole field          n=329  r = +0.833
+  points finishers     n=170  r = +0.713
+  podium finishers     n= 51  r = +0.168  p=0.24
+  outside the points   n=159  r = +0.787
+Finishing on the podium is caused by both qualifying well and race pace, so conditioning on
+it restricts the range on both causes and collapses the relationship. Study only the winners
+and you conclude the thing that produced them does not matter.
+
+**5. SOFT appears slower than MEDIUM (weak example, kept for honesty).**
+  pooled                       SOFT vs MEDIUM +0.220% [-0.021,+0.461] p=0.074
+  within driver x race          SOFT vs MEDIUM -0.096% [-0.208,+0.016] p=0.093
+Sign flips when the comparison is made within the same driver and race, which is the
+Simpson-shaped story — but neither estimate clears significance, so this is a weaker
+illustration than 1-4 and should be labelled as such if used.

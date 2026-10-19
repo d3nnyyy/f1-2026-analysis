@@ -109,7 +109,7 @@ Team differences are marginal too: joint cluster-robust test p = 0.045.
 
 ---
 
-## Two significant results that were wrong
+## Five significant results that were wrong
 
 ### Floor and ceiling
 
@@ -139,9 +139,55 @@ Antonelli vs Russell, identical coefficient of +0.0096%/lap:
 
 **2.7x wider.** Always pass `cov_type="cluster"`.
 
-Both artifacts were statistically significant, directionally sensible, and agreed with what
-people already believe. Neither was caught by looking harder at the output — both were caught
-by asking what else could produce that number.
+### Survivorship in stint length
+
+Degradation estimated separately by how long each stint actually lasted:
+
+| stint length | measured degradation |
+|---|---|
+| ≤10 laps | **-0.070 %/lap** |
+| 11-15 | +0.067 |
+| 16-20 | +0.077 |
+| 21-25 | +0.067 |
+| >25 | +0.054 |
+
+Short stints say tyres get *faster*. Teams pit when the tyre is done, so a long stint is one
+where degradation happened to be low, and a short stint usually ended for reasons unrelated to
+wear. Both ends are selected on the outcome.
+
+Ruled out tyre warm-up: dropping the first 3 laps of every stint made the short-stint negative
+**stronger** (-0.065 → -0.070).
+
+![survivorship](figures/survivorship.png)
+
+No clean fix. This is the main unresolved threat to every tyre-degradation number here,
+including the ones above.
+
+### Range restriction — conditioning on the outcome
+
+Correlation between grid position and race pace:
+
+| sample | n | r |
+|---|---|---|
+| whole field | 329 | **+0.833** |
+| points finishers (P1-10) | 170 | +0.713 |
+| podium finishers (P1-3) | 51 | **+0.168** (p=0.24) |
+| outside the points (P11+) | 159 | +0.787 |
+
+Finishing on the podium is caused by both qualifying well and being fast, so conditioning on it
+restricts the range on both causes at once. Study only the winners and you conclude the thing
+that produced them doesn't matter.
+
+### A weaker one, kept for honesty
+
+SOFT comes out slower than MEDIUM pooled (+0.220%, p=0.074) and faster within driver × race
+(-0.096%, p=0.093). The sign flips when the comparison is made inside the same driver and race,
+which is the Simpson-shaped story — but neither estimate clears significance, so it's a weaker
+illustration than the others.
+
+All of these were statistically significant or directionally convincing, and agreed with what
+people already believe. None was caught by looking harder at the output — each was caught by
+asking what else could produce that number.
 
 ---
 
