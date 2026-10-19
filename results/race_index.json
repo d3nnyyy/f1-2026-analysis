@@ -1,0 +1,173 @@
+[
+ {
+  "session_key": 11234,
+  "meeting_key": 1279,
+  "country": "Australia",
+  "circuit": "Melbourne",
+  "date": "2026-03-08",
+  "n_laps": 1002,
+  "n_stints": 53
+ },
+ {
+  "session_key": 11245,
+  "meeting_key": 1280,
+  "country": "China",
+  "circuit": "Shanghai",
+  "date": "2026-03-15",
+  "n_laps": 924,
+  "n_stints": 41
+ },
+ {
+  "session_key": 11253,
+  "meeting_key": 1281,
+  "country": "Japan",
+  "circuit": "Suzuka",
+  "date": "2026-03-29",
+  "n_laps": 1108,
+  "n_stints": 51
+ },
+ {
+  "session_key": 11261,
+  "meeting_key": 1282,
+  "country": "Bahrain",
+  "circuit": "Sakhir",
+  "date": "2026-04-12",
+  "n_laps": 0,
+  "n_stints": 0
+ },
+ {
+  "session_key": 11269,
+  "meeting_key": 1283,
+  "country": "Saudi Arabia",
+  "circuit": "Jeddah",
+  "date": "2026-04-19",
+  "n_laps": 0,
+  "n_stints": 0
+ },
+ {
+  "session_key": 11280,
+  "meeting_key": 1284,
+  "country": "United States",
+  "circuit": "Miami",
+  "date": "2026-05-03",
+  "n_laps": 1042,
+  "n_stints": 44
+ },
+ {
+  "session_key": 11291,
+  "meeting_key": 1285,
+  "country": "Canada",
+  "circuit": "Montreal",
+  "date": "2026-05-24",
+  "n_laps": 1212,
+  "n_stints": 56
+ },
+ {
+  "session_key": 11299,
+  "meeting_key": 1286,
+  "country": "Monaco",
+  "circuit": "Monte Carlo",
+  "date": "2026-06-07",
+  "n_laps": 1452,
+  "n_stints": 108
+ },
+ {
+  "session_key": 11307,
+  "meeting_key": 1287,
+  "country": "Spain",
+  "circuit": "Catalunya",
+  "date": "2026-06-14",
+  "n_laps": 1241,
+  "n_stints": 70
+ },
+ {
+  "session_key": 11315,
+  "meeting_key": 1288,
+  "country": "Austria",
+  "circuit": "Spielberg",
+  "date": "2026-06-28",
+  "n_laps": 1342,
+  "n_stints": 63
+ },
+ {
+  "session_key": 11326,
+  "meeting_key": 1289,
+  "country": "United Kingdom",
+  "circuit": "Silverstone",
+  "date": "2026-07-05",
+  "n_laps": 1114,
+  "n_stints": 73
+ },
+ {
+  "session_key": 11334,
+  "meeting_key": 1290,
+  "country": "Belgium",
+  "circuit": "Spa-Francorchamps",
+  "date": "2026-07-19",
+  "n_laps": 875,
+  "n_stints": 51
+ },
+ {
+  "session_key": 11342,
+  "meeting_key": 1291,
+  "country": "Hungary",
+  "circuit": "Hungaroring",
+  "date": "2026-07-26",
+  "n_laps": 1432,
+  "n_stints": 67
+ },
+ {
+  "session_key": 11353,
+  "meeting_key": 1292,
+  "country": "Netherlands",
+  "circuit": "Zandvoort",
+  "date": "2026-08-23",
+  "n_laps": 1369,
+  "n_stints": 87
+ },
+ {
+  "session_key": 11361,
+  "meeting_key": 1293,
+  "country": "Italy",
+  "circuit": "Monza",
+  "date": "2026-09-06",
+  "n_laps": 1055,
+  "n_stints": 52
+ },
+ {
+  "session_key": 11369,
+  "meeting_key": 1294,
+  "country": "Spain",
+  "circuit": "Madring",
+  "date": "2026-09-13",
+  "n_laps": 1109,
+  "n_stints": 47
+ },
+ {
+  "session_key": 11377,
+  "meeting_key": 1295,
+  "country": "Azerbaijan",
+  "circuit": "Baku",
+  "date": "2026-09-26",
+  "n_laps": 983,
+  "n_stints": 58
+ },
+ {
+  "session_key": 11731,
+  "meeting_key": 1308,
+  "country": "Bahrain",
+  "circuit": "Kuala Lumpur",
+  "date": "2026-10-04",
+  "n_laps": 1145,
+  "n_stints": 97
+ },
+ {
+  "session_key": 11388,
+  "meeting_key": 1296,
+  "country": "Singapore",
+  "circuit": "Singapore",
+  "date": "2026-10-11",
+  "n_laps": 1240,
+  "n_stints": 47
+ }
+]
